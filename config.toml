@@ -33,11 +33,11 @@ paginate = 5
     keywords = ""
     copyright = ""
     menuMore = "Show more"
-    writtenBy = "Written by"
+    writtenBy = "Created by"
     readMore = "Read more"
-    readOtherPosts = "Read other posts"
-    newerPosts = "Newer posts"
-    olderPosts = "Older posts"
+    readOtherPosts = "Read other parts"
+    newerPosts = "Previous Page"
+    olderPosts = "Next Page"
     # leave empty to disable, enter display text to enable
     # lastModDisplay = ""
 
@@ -52,9 +52,9 @@ paginate = 5
     [languages.en.menu]
       [[languages.en.menu.main]]
         identifier = "about"
-        name = "About"
+        name = "ABOUT"
         url = "/about"
       [[languages.en.menu.main]]
         identifier = "showcase"
-        name = "Showcase"
+        name = "SHOWCASE"
         url = "/showcase"
