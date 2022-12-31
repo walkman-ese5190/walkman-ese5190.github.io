@@ -1,4 +1,4 @@
-baseurl = 'http://ese-5190-walkman.github.io/'
+baseurl = 'http://walkman-ese5190.github.io/'
 languageCode = "en-us"
 title = "Walkman 🚶‍♂️"
 theme = "hello-friend"
