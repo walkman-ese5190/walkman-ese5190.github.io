@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+      <title>
+        4. Descritption of RP2040 development enviroment ::
+        Step Counter — ese5190 Final Project
+      </title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta
+  name="description"
+  content="The information below could be found in the link
+Installing the Toolchain # Arm GNU Toolchain CMake Build Tools for Visual Studio 2022 Python 3.10 Git Installing Arm GNU Toolchain # Finding the filename ending with -arm-none-eabi.exe to download During installation, tick the box (Add path to environment variable) to register the path to the Arm compiler as an environment variable in the Windows shell when prompted to do so. Installing CMake # During the installation, add CMake to the system PATH for all users when prompted by the installer."
+/>
+<meta
+  name="keywords"
+  content=""
+/>
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="http://ese-5190-walkman.github.io/posts/4.-descritption-of-rp2040-development-enviroment/" />
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/style.css" />
+
+<link rel="stylesheet" href="http://ese-5190-walkman.github.io/style.css" />
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://ese-5190-walkman.github.io/img/apple-touch-icon-144-precomposed.png" />
+<link rel="shortcut icon" href="http://ese-5190-walkman.github.io/img/favicon.png" />
+
+
+<link href="/fonts/Inter-Italic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/fonts/Inter-Regular.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/fonts/Inter-Medium.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/fonts/Inter-MediumItalic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/fonts/Inter-Bold.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/fonts/Inter-BoldItalic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="4. Descritption of RP2040 development enviroment"/>
+<meta name="twitter:description" content="The more specific information is in the [link](https://github.com/lihzhao14/ese5190_pico_setup_guide)"/>
+
+
+
+<meta property="og:title" content="4. Descritption of RP2040 development enviroment" />
+<meta property="og:description" content="The more specific information is in the [link](https://github.com/lihzhao14/ese5190_pico_setup_guide)" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://ese-5190-walkman.github.io/posts/4.-descritption-of-rp2040-development-enviroment/" /><meta property="article:section" content="posts" />
+
+<meta property="og:site_name" content="Step Counter" />
+
+
+
+
+
+
+  </head>
+  <body class="dark-theme">
+    <div class="container">
+      <header class="header">
+  <span class="header__inner">
+    <a
+  href="/"
+  class="logo"
+  style="text-decoration: none;"
+>
+  
+    <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
+  <path fill="none" d="M15 8l14.729 14.382L15 35.367" />
+</svg>
+</span>
+    <span class="logo__text"
+      >Homepage</span
+    >
+    <span class="logo__cursor"></span>
+  
+</a>
+
+    <span class="header__right">
+      
+        <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="/showcase">Showcase</a></li>
+        
+      
+      
+      
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/about">About</a></li>
+      
+    
+      
+        <li><a href="/showcase">Showcase</a></li>
+      
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none" />
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
+          </svg>
+        </span>
+      
+      <span class="theme-toggle">
+        <svg
+  class="theme-toggler"
+  width="24"
+  height="24"
+  viewBox="0 0 48 48"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"
+  />
+</svg>
+
+      </span>
+    </span>
+  </span>
+</header>
+
+
+      <div class="content">
+        
+  
+  
+
+  <article class="post">
+    <h1 class="post-title"><ol start="4">
+<li>Descritption of RP2040 development enviroment</li>
+</ol>
+</h1>
+    <div class="post-meta">
+      
+
+      
+
+
+      
+    </div>
+
+    
+
+    
+
+    <div class="post-content">
+      
+      <p>The information below could be found in the <a href="https://github.com/lihzhao14/ese5190_pico_setup_guide">link</a></p>
+<h2 id="installing-the-toolchain">
+  Installing the Toolchain
+  <a href="#installing-the-toolchain" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+<ul>
+<li>Arm GNU Toolchain</li>
+<li>CMake</li>
+<li>Build Tools for Visual Studio 2022</li>
+<li>Python 3.10</li>
+<li>Git</li>
+</ul>
+<h4 id="installing-arm-gnu-toolchainhttpsdeveloperarmcomdownloads-arm-gnu-toolchain-downloads">
+  <a href="https://developer.arm.com/downloads/-/arm-gnu-toolchain-downloads">Installing Arm GNU Toolchain</a>
+  <a href="#installing-arm-gnu-toolchainhttpsdeveloperarmcomdownloads-arm-gnu-toolchain-downloads" class="h-anchor" aria-hidden="true">#</a>
+</h4>
+<ul>
+<li>Finding the filename ending with -arm-none-eabi.exe to download</li>
+</ul>
+<!-- raw HTML omitted -->
+<ul>
+<li>During installation, tick the box (Add path to environment variable) to register the path to the Arm compiler as an environment variable in the Windows shell when prompted to do so.</li>
+</ul>
+<!-- raw HTML omitted -->
+<h4 id="installing-cmakehttpscmakeorgdownload">
+  <a href="https://cmake.org/download/">Installing CMake</a> 
+  <a href="#installing-cmakehttpscmakeorgdownload" class="h-anchor" aria-hidden="true">#</a>
+</h4>
+<ul>
+<li>During the installation, add CMake to the system PATH for all users when prompted by the installer.</li>
+</ul>
+<!-- raw HTML omitted -->
+<h4 id="installing-build-tools-for-visual-studio-2022httpsvisualstudiomicrosoftcomzh-hansdownloads">
+  <a href="https://visualstudio.microsoft.com/zh-hans/downloads/">Installing Build Tools for Visual Studio 2022</a>
+  <a href="#installing-build-tools-for-visual-studio-2022httpsvisualstudiomicrosoftcomzh-hansdownloads" class="h-anchor" aria-hidden="true">#</a>
+</h4>
+<ul>
+<li>When prompted by the Build Tools for Visual Studio installer, install the C++ build tools only.</li>
+</ul>
+<!-- raw HTML omitted -->
+<h4 id="installing-python-310httpswwwpythonorgdownloadsreleasepython-3107">
+  <a href="https://www.python.org/downloads/release/python-3107/">Installing Python 3.10</a> 
+  <a href="#installing-python-310httpswwwpythonorgdownloadsreleasepython-3107" class="h-anchor" aria-hidden="true">#</a>
+</h4>
+<ul>
+<li>For windows system, install &ldquo;Windows Installer&rdquo;.</li>
+</ul>
+<!-- raw HTML omitted -->
+<ul>
+<li>During the installation, ensure that,
+<ul>
+<li>It’s installed &lsquo;for all users&rsquo;;</li>
+<li>Add Python 3.10 to the system PATH when prompted by the installer.</li>
+</ul>
+</li>
+</ul>
+<!-- raw HTML omitted -->
+<ul>
+<li>Additionally, disable the MAX_PATH length limit when prompted at the end of the Python installation.</li>
+</ul>
+<!-- raw HTML omitted -->
+<ul>
+<li>Then, python is successfully installed.</li>
+</ul>
+<!-- raw HTML omitted -->
+<h4 id="installing-githttpsgit-scmcomdownloadwin">
+  <a href="https://git-scm.com/download/win">Installing Git</a> 
+  <a href="#installing-githttpsgit-scmcomdownloadwin" class="h-anchor" aria-hidden="true">#</a>
+</h4>
+<ul>
+<li>When installing Git you should ensure that you change the default editor away from vim to Notepad as Git&rsquo;s default editor</li>
+</ul>
+<!-- raw HTML omitted -->
+<ul>
+<li>Check the box &ldquo;Checkout as is, commit as-is&rdquo;</li>
+</ul>
+<!-- raw HTML omitted -->
+<ul>
+<li>Select &ldquo;Use Windows&rsquo; default console window&rdquo;</li>
+</ul>
+<!-- raw HTML omitted -->
+<ul>
+<li>Select &ldquo;Enable experimental support for pseudo consoles&rdquo;</li>
+</ul>
+<!-- raw HTML omitted -->
+<h2 id="getting-the-sdk-and-examples">
+  Getting the SDK and examples
+  <a href="#getting-the-sdk-and-examples" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+<ul>
+<li>Open VS Code Terminal</li>
+</ul>
+<!-- raw HTML omitted -->
+<ul>
+<li>Turn to initial address</li>
+</ul>
+<pre tabindex="0"><code>    cd to &#34;C:\Users\zlhgl\ese5190_lab2\pico\Downloads&#34;
+</code></pre><!-- raw HTML omitted -->
+<pre tabindex="0"><code>C:\Users\zlhgl\ese5190_lab2\pico\Downloads&gt; git clone -b master https://github.com/raspberrypi/pico-sdk.git
+C:\Users\zlhgl\ese5190_lab2\pico\Downloads&gt; cd pico-sdk
+C:\Users\zlhgl\ese5190_lab2\pico\Downloads\pico-sdk&gt; git submodule update --init
+C:\Users\zlhgl\ese5190_lab2\pico\Downloads\pico-sdk&gt; cd ..
+C:\Users\zlhgl\ese5190_lab2\pico\Downloads&gt; git clone -b master https://github.com/raspberrypi/pico-examples.git
+</code></pre><h2 id="building-hello-world-from-visual-studio-code">
+  Building &ldquo;Hello World&rdquo; from Visual Studio Code
+  <a href="#building-hello-world-from-visual-studio-code" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+<ul>
+<li>Download and install <a href="https://code.visualstudio.com/">Visual Studio Code</a> for Windows</li>
+<li>After installation open a Developer Command Prompt window in Visual Studio 2022</li>
+</ul>
+<!-- raw HTML omitted -->
+<ul>
+<li><strong>Open VS Code from Developer Command Prompt</strong> and type,</li>
+</ul>
+<pre tabindex="0"><code>code
+</code></pre><p>VS Code will be popped up.</p>
+<ul>
+<li>
+<p>Install the <strong>CMake Tools</strong> extension</p>
+<ul>
+<li>Click on the Extensions icon in the left-hand toolbar (or type Ctrl + Shift + X), and search for <strong>&ldquo;CMake Tools&rdquo;</strong> and click on the entry in the list, and then click on the install button.
+<ul>
+<li>When installing, select &ldquo;Trust Workspace &amp; Install&rdquo;</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Then select &ldquo;Settings&rdquo;. In the Settings pane click on <strong>&ldquo;Extensions&rdquo;</strong> and then <strong>&ldquo;CMake Tools&rdquo;</strong>. Then scroll down to <strong>&ldquo;Cmake: Configure Environment&rdquo;</strong>. Click on <strong>&ldquo;Add Item&rdquo;</strong> and set the <strong>PICO_SDK_PATH</strong> to be <strong>....\pico-sdk</strong></p>
+</li>
+</ul>
+<!-- raw HTML omitted -->
+<ul>
+<li>Additionally scroll down to <strong>&ldquo;Cmake: Generator&rdquo;</strong> and enter <strong>&ldquo;NMake Makefiles&rdquo;</strong> into the box.</li>
+</ul>
+<!-- raw HTML omitted -->
+<ul>
+<li>Close the Settings page and go to the File menu and click on <strong>&ldquo;Open Folder&rdquo;</strong> and navigate to pico-examples repo and click <strong>&ldquo;Select Folder&rdquo;</strong>.</li>
+<li>Select &ldquo;GCC for arm-none-eabi&rdquo; as the compiler</li>
+</ul>
+<!-- raw HTML omitted -->
+<h2 id="connect-the-rp2040-to-the-laptop">
+  Connect the RP2040 to the Laptop
+  <a href="#connect-the-rp2040-to-the-laptop" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+<ul>
+<li>Reset the RP2040
+<ul>
+<li>Hold down the BOOT/BOOTSEL button (highlighted in red) and plug into the USB-port.</li>
+</ul>
+</li>
+</ul>
+<!-- raw HTML omitted -->
+<ul>
+<li>Drag and drop <strong>&ldquo;hello_usb.uf2&rdquo;</strong> into the drive. (The path of &ldquo;hello_usb.uf2&rdquo; is &ldquo;C:\Users\zlhgl\ese5190_lab2\pico\Downloads\pico-examples\build\hello_world\usb&rdquo;)</li>
+</ul>
+<!-- raw HTML omitted -->
+<h2 id="installing-puttyhttpswwwchiarkgreenendorguksgtathamputtylatesthtml">
+  <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html">Installing Putty</a>
+  <a href="#installing-puttyhttpswwwchiarkgreenendorguksgtathamputtylatesthtml" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+<!-- raw HTML omitted -->
+<ul>
+<li>Find out which serial port the board (RP2040) is using
+Use Windows Device Manager to determine which port the board is using. Open Device Manager. Click on Ports (COM &amp; LPT). You should find something already in that list with (COM#) after it where # is a number. Here, it is <strong>COM4</strong>.</li>
+</ul>
+<!-- raw HTML omitted -->
+<ul>
+<li>Then, open PuTTY:
+<ul>
+<li>Under <strong>Connection type</strong>: choose the button next to <strong>Seria</strong>l.</li>
+<li>In the box under <strong>Serial line</strong>, enter the serial port you found that your board is using.</li>
+<li>In the box under <strong>Speed</strong>, enter <strong>115200</strong>.</li>
+<li>Save that as a stored session. Enter a name (&ldquo;Advanced Serial Console&rdquo;) in the box under Saved Sessions, and click the Save button on the right.</li>
+<li>Click &ldquo;Open&rdquo; at the bottom of the window. A new window will open</li>
+</ul>
+</li>
+</ul>
+<!-- raw HTML omitted -->
+<h2 id="result">
+  Result
+  <a href="#result" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+<!-- raw HTML omitted -->
+
+    </div>
+    
+      
+        <div class="pagination">
+          <div class="pagination__title">
+            <span class="pagination__title-h"
+              >Read other posts</span
+            >
+            <hr />
+          </div>
+          <div class="pagination__buttons">
+            
+              <span class="button previous">
+                <a href="http://ese-5190-walkman.github.io/posts/3.-block-diagram/">
+                  <span class="button__icon">←</span>
+                  <span class="button__text">3. Block Diagram</span>
+                </a>
+              </span>
+            
+            
+              <span class="button next">
+                <a href="http://ese-5190-walkman.github.io/posts/5.-code/">
+                  <span class="button__text">5. Code</span>
+                  <span class="button__icon">→</span>
+                </a>
+              </span>
+            
+          </div>
+        </div>
+      
+    
+
+    
+      
+        
+
+      
+    
+  </article>
+
+      </div>
+
+      
+        <footer class="footer">
+  <div class="footer__inner">
+    
+      <a
+  href="/"
+  class="logo"
+  style="text-decoration: none;"
+>
+  
+    <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
+  <path fill="none" d="M15 8l14.729 14.382L15 35.367" />
+</svg>
+</span>
+    <span class="logo__text"
+      >Homepage</span
+    >
+    <span class="logo__cursor"></span>
+  
+</a>
+
+      <div class="copyright">
+        <span
+          >© 2022 Powered by
+          <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a></span
+        >
+        <span
+          >Theme created by
+          <a href="https://twitter.com/panr" target="_blank" rel="noopener">panr</a></span
+        >
+      </div>
+    
+  </div>
+</footer>
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+      
+    </div>
+
+    
+  </body>
+</html>
