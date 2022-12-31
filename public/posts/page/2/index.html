@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+      <title>
+        Posts ::
+        Step Counter — ese5190 Final Project
+      </title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta
+  name="description"
+  content=""
+/>
+<meta
+  name="keywords"
+  content=""
+/>
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="http://walkman-ese5190.github.io/posts/" />
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/style.css" />
+
+<link rel="stylesheet" href="http://walkman-ese5190.github.io/style.css" />
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://walkman-ese5190.github.io/img/apple-touch-icon-144-precomposed.png" />
+<link rel="shortcut icon" href="http://walkman-ese5190.github.io/img/favicon.png" />
+
+
+<link href="/fonts/Inter-Italic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/fonts/Inter-Regular.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/fonts/Inter-Medium.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/fonts/Inter-MediumItalic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/fonts/Inter-Bold.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/fonts/Inter-BoldItalic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Posts"/>
+<meta name="twitter:description" content=""/>
+
+
+
+<meta property="og:title" content="Posts" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://walkman-ese5190.github.io/posts/" /><meta property="og:site_name" content="Step Counter" />
+
+
+
+<link rel="alternate" type="application/rss+xml" href="/posts/index.xml" title="Step Counter" />
+
+
+
+  </head>
+  <body class="dark-theme">
+    <div class="container">
+      <header class="header">
+  <span class="header__inner">
+    <a
+  href="/"
+  class="logo"
+  style="text-decoration: none;"
+>
+  
+    <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
+  <path fill="none" d="M15 8l14.729 14.382L15 35.367" />
+</svg>
+</span>
+    <span class="logo__text"
+      >Homepage</span
+    >
+    <span class="logo__cursor"></span>
+  
+</a>
+
+    <span class="header__right">
+      
+        <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/about">ABOUT</a></li>
+        
+      
+        
+          <li><a href="/showcase">SHOWCASE</a></li>
+        
+      
+      
+      
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/about">ABOUT</a></li>
+      
+    
+      
+        <li><a href="/showcase">SHOWCASE</a></li>
+      
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none" />
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
+          </svg>
+        </span>
+      
+      <span class="theme-toggle">
+        <svg
+  class="theme-toggler"
+  width="24"
+  height="24"
+  viewBox="0 0 48 48"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"
+  />
+</svg>
+
+      </span>
+    </span>
+  </span>
+</header>
+
+
+      <div class="content">
+        
+  <div class="posts">
+    
+      <article class="post on-list">
+        <h1 class="post-title"><a href="http://walkman-ese5190.github.io/posts/1.-overview/"><ol>
+<li>Overview</li>
+</ol>
+</a></h1>
+        <div class="post-meta">
+          
+          
+
+
+          
+        </div>
+
+        
+
+        
+
+        <div class="post-content">
+          
+            In this project, we try to create a steps counter to detect people’s daily walking and try to add some modules to analyse and show data on screen and make it portable to use as a health monitor and reminder. The RP2040 chip we have contains the IMU module and LCD screen. We will use the IMU module detects the movement of the user and generates the data of acceleration of linear velocity and angular velocity. Also, an algorithm is required. First, we need a filter Algorithms remove the high frequency noise from the raw data and the Data Processor need to identifies the signal pattern of “walking” . Next, the Program counts the amount of steps in a certain amount of time and the LCD Screen shows the amount of steps on the screen.
+            
+        </div>
+        
+          <div>
+            <a class="read-more button" href="/posts/1.-overview/"
+              >Read more →</a
+            >
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h1 class="post-title"><a href="http://walkman-ese5190.github.io/posts/2.-component/"><ol start="2">
+<li>Component</li>
+</ol>
+</a></h1>
+        <div class="post-meta">
+          
+          
+
+
+          
+        </div>
+
+        
+
+        
+          <figure class="post-cover">
+  
+    <img src="http://walkman-ese5190.github.io/img/pico4ml.webp" alt="2. Component"/>
+  
+
+  
+</figure>
+
+        
+
+        <div class="post-content">
+          
+            <a href="https://www.arducam.com/pico4ml-an-rp2040-based-platform-for-tiny-machine-learning/">Picol4ml: The single-board microcontroller – powered by Raspberry Pi’s RP2040 chip – to support all Tensorflow Lite Micro tiny machine learning examples with an onboard camera, screen, microphone, and IMU. Run without wiring, or even untethered.</a>
+            
+        </div>
+        
+          <div>
+            <a class="read-more button" href="/posts/2.-component/"
+              >Read more →</a
+            >
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h1 class="post-title"><a href="http://walkman-ese5190.github.io/posts/3.-block-diagram/"><ol start="3">
+<li>Block Diagram</li>
+</ol>
+</a></h1>
+        <div class="post-meta">
+          
+          
+
+
+          
+        </div>
+
+        
+
+        
+          <figure class="post-cover">
+  
+    <img src="http://walkman-ese5190.github.io/img/block_diagram.png" alt="3. Block Diagram"/>
+  
+
+  
+</figure>
+
+        
+
+        <div class="post-content">
+          
+            By clicking &ldquo;Read more/&rdquo;, you could find more information.
+            
+        </div>
+        
+          <div>
+            <a class="read-more button" href="/posts/3.-block-diagram/"
+              >Read more →</a
+            >
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h1 class="post-title"><a href="http://walkman-ese5190.github.io/posts/4.-descritption-of-rp2040-development-enviroment/"><ol start="4">
+<li>Descritption of RP2040 development enviroment</li>
+</ol>
+</a></h1>
+        <div class="post-meta">
+          
+          
+
+
+          
+        </div>
+
+        
+
+        
+
+        <div class="post-content">
+          
+            The more specific information is in the <a href="https://github.com/lihzhao14/ese5190_pico_setup_guide">link</a>
+            
+        </div>
+        
+          <div>
+            <a class="read-more button" href="/posts/4.-descritption-of-rp2040-development-enviroment/"
+              >Read more →</a
+            >
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h1 class="post-title"><a href="http://walkman-ese5190.github.io/posts/5.-code/"><ol start="5">
+<li>Code</li>
+</ol>
+</a></h1>
+        <div class="post-meta">
+          
+          
+
+
+          
+        </div>
+
+        
+
+        
+
+        <div class="post-content">
+          
+            By using the sdk for ICM20948 and LCD_st7735, we are now able to successfully read the acceleration and gravity data from IMU(ICM20948) and get it to display on the LCD screen (LCD_st7735) which is used by PIO. The code is in this <a href="https://github.com/ese5190-walkman/ese-5190_final_project/tree/main/code/in-progress">repo</a>.
+            
+        </div>
+        
+          <div>
+            <a class="read-more button" href="/posts/5.-code/"
+              >Read more →</a
+            >
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h1 class="post-title"><a href="http://walkman-ese5190.github.io/posts/6.-troubleshooting/"><ol start="6">
+<li>Troubleshooting</li>
+</ol>
+</a></h1>
+        <div class="post-meta">
+          
+          
+
+
+          
+        </div>
+
+        
+
+        
+
+        <div class="post-content">
+          
+            Troubleshooting is important to a project.
+            
+        </div>
+        
+          <div>
+            <a class="read-more button" href="/posts/6.-troubleshooting/"
+              >Read more →</a
+            >
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h1 class="post-title"><a href="http://walkman-ese5190.github.io/posts/7.-reflections/"><ol start="7">
+<li>Reflections</li>
+</ol>
+</a></h1>
+        <div class="post-meta">
+          
+          
+
+
+          
+        </div>
+
+        
+
+        
+
+        <div class="post-content">
+          
+            Advantages/Disadvantages; Recommendation to future teams; Other design approaches/components we might try next time&hellip;
+            
+        </div>
+        
+          <div>
+            <a class="read-more button" href="/posts/7.-reflections/"
+              >Read more →</a
+            >
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h1 class="post-title"><a href="http://walkman-ese5190.github.io/posts/8.-feature-or-accomplishment-we-found-particularly-satisfying/"><ol start="8">
+<li>Feature or Accomplishment we found particularly satisfying</li>
+</ol>
+</a></h1>
+        <div class="post-meta">
+          
+          
+
+
+          
+        </div>
+
+        
+
+        
+
+        <div class="post-content">
+          
+            Successfully detect the moving state of the IMU module and turn that into walking state. When treat it like a bracelet, the step counting actually works!
+            
+        </div>
+        
+          <div>
+            <a class="read-more button" href="/posts/8.-feature-or-accomplishment-we-found-particularly-satisfying/"
+              >Read more →</a
+            >
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h1 class="post-title"><a href="http://walkman-ese5190.github.io/posts/9.-explanation-of-the-pio-part-of-the-code/"><ol start="9">
+<li>Explanation of the PIO part of the code</li>
+</ol>
+</a></h1>
+        <div class="post-meta">
+          
+          
+
+
+          
+        </div>
+
+        
+
+        
+
+        <div class="post-content">
+          
+            The diagram of the overall logic; Introduction to the RP2040 PIO module; What makes RP2040 a unique asset for a microcontroller
+            
+        </div>
+        
+          <div>
+            <a class="read-more button" href="/posts/9.-explanation-of-the-pio-part-of-the-code/"
+              >Read more →</a
+            >
+          </div>
+        
+      </article>
+    
+    <div class="pagination">
+  <div class="pagination__buttons">
+    
+      <span class="button previous">
+        <a href="/posts/">
+          <span class="button__icon">←</span>
+          <span class="button__text">Previous Page</span>
+        </a>
+      </span>
+    
+    
+  </div>
+</div>
+
+  </div>
+
+      </div>
+
+      
+        <footer class="footer">
+  <div class="footer__inner">
+    
+      <a
+  href="/"
+  class="logo"
+  style="text-decoration: none;"
+>
+  
+    <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
+  <path fill="none" d="M15 8l14.729 14.382L15 35.367" />
+</svg>
+</span>
+    <span class="logo__text"
+      >Homepage</span
+    >
+    <span class="logo__cursor"></span>
+  
+</a>
+
+      <div class="copyright">
+        <span
+          >© 2022 Powered by
+          <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a></span
+        >
+        <span
+          >Theme created by
+          <a href="https://twitter.com/panr" target="_blank" rel="noopener">panr</a></span
+        >
+      </div>
+    
+  </div>
+</footer>
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+      
+    </div>
+
+    
+  </body>
+</html>

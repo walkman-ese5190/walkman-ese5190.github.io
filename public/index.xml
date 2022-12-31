@@ -5,62 +5,20 @@
     
     
     
-    <link>http://ese-5190-walkman.github.io/</link>
+    <link>http://walkman-ese5190.github.io/</link>
     <description>Recent content on Step Counter</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://ese-5190-walkman.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://walkman-ese5190.github.io/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>About</title>
-      <link>http://ese-5190-walkman.github.io/about/</link>
-      <pubDate>Fri, 25 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://ese-5190-walkman.github.io/about/</guid>
-      <description>
-        
-          
-          
-          
-        
-        
-        
-          Hi there # My name is Radek and I&amp;rsquo;m the author of this theme. I made it to help you present your ideas easier.
-We all know how hard is to start something on the web, especially these days. You need to prepare a bunch of stuff, configure them and when that’s done — create the content.
-This theme is pretty basic and covers all of the essentials. All you have to do is start typing!
-          
-        
-        </description>
-    </item>
-    
-    <item>
-      <title>Showcase</title>
-      <link>http://ese-5190-walkman.github.io/showcase/</link>
-      <pubDate>Fri, 18 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://ese-5190-walkman.github.io/showcase/</guid>
-      <description>
-        
-          
-          
-          
-        
-        
-        
-          Header 2 # Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec interdum metus. Aenean rutrum ligula sodales ex auctor, sed tempus dui mollis. Curabitur ipsum dui, aliquet nec commodo at, tristique eget ante. Donec quis dolor nec nunc mollis interdum vel in purus. Sed vitae leo scelerisque, sollicitudin elit sed, congue ante. In augue nisl, vestibulum commodo est a, tristique porttitor est. Proin laoreet iaculis ornare. Nullam ut neque quam.
-          
-        
-        </description>
-    </item>
     
     <item>
       <title>1. Overview</title>
-      <link>http://ese-5190-walkman.github.io/posts/1.-overview/</link>
+      <link>http://walkman-ese5190.github.io/posts/1.-overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://ese-5190-walkman.github.io/posts/1.-overview/</guid>
+      <guid>http://walkman-ese5190.github.io/posts/1.-overview/</guid>
       <description>
         
           
@@ -77,13 +35,13 @@ This theme is pretty basic and covers all of the essentials. All you have to do 
     
     <item>
       <title>2. Component</title>
-      <link>http://ese-5190-walkman.github.io/posts/2.-component/</link>
+      <link>http://walkman-ese5190.github.io/posts/2.-component/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://ese-5190-walkman.github.io/posts/2.-component/</guid>
+      <guid>http://walkman-ese5190.github.io/posts/2.-component/</guid>
       <description>
         
-          &lt;img src=&#34;http://ese-5190-walkman.github.io/img/pico4ml.webp&#34;/&gt;
+          &lt;img src=&#34;http://walkman-ese5190.github.io/img/pico4ml.webp&#34;/&gt;
           
         
         
@@ -96,13 +54,13 @@ This theme is pretty basic and covers all of the essentials. All you have to do 
     
     <item>
       <title>3. Block Diagram</title>
-      <link>http://ese-5190-walkman.github.io/posts/3.-block-diagram/</link>
+      <link>http://walkman-ese5190.github.io/posts/3.-block-diagram/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://ese-5190-walkman.github.io/posts/3.-block-diagram/</guid>
+      <guid>http://walkman-ese5190.github.io/posts/3.-block-diagram/</guid>
       <description>
         
-          &lt;img src=&#34;http://ese-5190-walkman.github.io/img/block_diagram.png&#34;/&gt;
+          &lt;img src=&#34;http://walkman-ese5190.github.io/img/block_diagram.png&#34;/&gt;
           
         
         
@@ -115,10 +73,10 @@ This theme is pretty basic and covers all of the essentials. All you have to do 
     
     <item>
       <title>4. Descritption of RP2040 development enviroment</title>
-      <link>http://ese-5190-walkman.github.io/posts/4.-descritption-of-rp2040-development-enviroment/</link>
+      <link>http://walkman-ese5190.github.io/posts/4.-descritption-of-rp2040-development-enviroment/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://ese-5190-walkman.github.io/posts/4.-descritption-of-rp2040-development-enviroment/</guid>
+      <guid>http://walkman-ese5190.github.io/posts/4.-descritption-of-rp2040-development-enviroment/</guid>
       <description>
         
           
@@ -135,10 +93,10 @@ This theme is pretty basic and covers all of the essentials. All you have to do 
     
     <item>
       <title>5. Code</title>
-      <link>http://ese-5190-walkman.github.io/posts/5.-code/</link>
+      <link>http://walkman-ese5190.github.io/posts/5.-code/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://ese-5190-walkman.github.io/posts/5.-code/</guid>
+      <guid>http://walkman-ese5190.github.io/posts/5.-code/</guid>
       <description>
         
           
@@ -154,11 +112,132 @@ This theme is pretty basic and covers all of the essentials. All you have to do 
     </item>
     
     <item>
-      <title>Archive</title>
-      <link>http://ese-5190-walkman.github.io/archive/</link>
+      <title>6. Troubleshooting</title>
+      <link>http://walkman-ese5190.github.io/posts/6.-troubleshooting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://ese-5190-walkman.github.io/archive/</guid>
+      <guid>http://walkman-ese5190.github.io/posts/6.-troubleshooting/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Troubleshooting is important to a project.
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>7. Reflections</title>
+      <link>http://walkman-ese5190.github.io/posts/7.-reflections/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://walkman-ese5190.github.io/posts/7.-reflections/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Advantages/Disadvantages; Recommendation to future teams; Other design approaches/components we might try next time...
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>8. Feature or Accomplishment we found particularly satisfying</title>
+      <link>http://walkman-ese5190.github.io/posts/8.-feature-or-accomplishment-we-found-particularly-satisfying/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://walkman-ese5190.github.io/posts/8.-feature-or-accomplishment-we-found-particularly-satisfying/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Successfully detect the moving state of the IMU module and turn that into walking state. When treat it like a bracelet, the step counting actually works!
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>9. Explanation of the PIO part of the code</title>
+      <link>http://walkman-ese5190.github.io/posts/9.-explanation-of-the-pio-part-of-the-code/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://walkman-ese5190.github.io/posts/9.-explanation-of-the-pio-part-of-the-code/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          The diagram of the overall logic; Introduction to the RP2040 PIO module; What makes RP2040 a unique asset for a microcontroller
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>http://walkman-ese5190.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://walkman-ese5190.github.io/about/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Hello Everyone! # We are Team “Walkman🚶‍♂️”, our team members are Hao Pan, LiHong Zhao and XingJian Chen. This page is a brief introduction to our team and what we are doing.
+We made up our team in fall 2022. This team of 3 focuses on step counter, a tool to record people’s daily walking data and is useful to people’s health as well. You’ll find it easy to use and convenient to wear.
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>Archive</title>
+      <link>http://walkman-ese5190.github.io/archive/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://walkman-ese5190.github.io/archive/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>SHOWCASE</title>
+      <link>http://walkman-ese5190.github.io/showcase/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://walkman-ese5190.github.io/showcase/</guid>
       <description>
         
           

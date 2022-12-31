@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+      <title>
+        7. Reflections ::
+        Step Counter — ese5190 Final Project
+      </title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta
+  name="description"
+  content="Advantages/Disadvantages # Advantages:
+The project does not need any peripheral equipment, it is cheap and light. The project is sensitive to the state when the chip is integrated in a sports bracelet, in such case the walking detection is accurate. A LCD screen is used to show the step information, it is very intuitive for user to see how many steps they walked in a day. Disadvantage: 1.The algorithm is not sophisticated enough, it&amp;rsquo;s defination on &amp;ldquo;one step&amp;rdquo; is rely on the relative position of the IMU chip."
+/>
+<meta
+  name="keywords"
+  content=""
+/>
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="http://walkman-ese5190.github.io/posts/7.-reflections/" />
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/style.css" />
+
+<link rel="stylesheet" href="http://walkman-ese5190.github.io/style.css" />
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://walkman-ese5190.github.io/img/apple-touch-icon-144-precomposed.png" />
+<link rel="shortcut icon" href="http://walkman-ese5190.github.io/img/favicon.png" />
+
+
+<link href="/fonts/Inter-Italic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/fonts/Inter-Regular.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/fonts/Inter-Medium.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/fonts/Inter-MediumItalic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/fonts/Inter-Bold.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/fonts/Inter-BoldItalic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="7. Reflections"/>
+<meta name="twitter:description" content="Advantages/Disadvantages; Recommendation to future teams; Other design approaches/components we might try next time..."/>
+
+
+
+<meta property="og:title" content="7. Reflections" />
+<meta property="og:description" content="Advantages/Disadvantages; Recommendation to future teams; Other design approaches/components we might try next time..." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://walkman-ese5190.github.io/posts/7.-reflections/" /><meta property="article:section" content="posts" />
+
+<meta property="og:site_name" content="Step Counter" />
+
+
+
+
+
+
+  </head>
+  <body class="dark-theme">
+    <div class="container">
+      <header class="header">
+  <span class="header__inner">
+    <a
+  href="/"
+  class="logo"
+  style="text-decoration: none;"
+>
+  
+    <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
+  <path fill="none" d="M15 8l14.729 14.382L15 35.367" />
+</svg>
+</span>
+    <span class="logo__text"
+      >Homepage</span
+    >
+    <span class="logo__cursor"></span>
+  
+</a>
+
+    <span class="header__right">
+      
+        <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/about">ABOUT</a></li>
+        
+      
+        
+          <li><a href="/showcase">SHOWCASE</a></li>
+        
+      
+      
+      
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/about">ABOUT</a></li>
+      
+    
+      
+        <li><a href="/showcase">SHOWCASE</a></li>
+      
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none" />
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
+          </svg>
+        </span>
+      
+      <span class="theme-toggle">
+        <svg
+  class="theme-toggler"
+  width="24"
+  height="24"
+  viewBox="0 0 48 48"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"
+  />
+</svg>
+
+      </span>
+    </span>
+  </span>
+</header>
+
+
+      <div class="content">
+        
+  
+  
+
+  <article class="post">
+    <h1 class="post-title"><ol start="7">
+<li>Reflections</li>
+</ol>
+</h1>
+    <div class="post-meta">
+      
+
+      
+
+
+      
+    </div>
+
+    
+
+    
+
+    <div class="post-content">
+      
+      <h2 id="advantagesdisadvantages">
+  Advantages/Disadvantages
+  <a href="#advantagesdisadvantages" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+<p>Advantages:</p>
+<ol>
+<li>The project does not need any peripheral equipment, it is cheap and light.</li>
+<li>The project is sensitive to the state when the chip is integrated in a sports bracelet, in such case the walking detection is accurate.</li>
+<li>A LCD screen is used to show the step information, it is very intuitive for user to see how many steps they walked in a day.</li>
+</ol>
+<p>Disadvantage:
+1.The algorithm is not sophisticated enough, it&rsquo;s defination on &ldquo;one step&rdquo; is rely on the relative position of the IMU chip. Nowadays, most step counter are integrated in the cell phone, which normally stays in the pocket when users are walking. Our algorithm can&rsquo;t handle that situation yet.
+2. Even if users use our program on a sport bracelet, the algorithm still can&rsquo;t tell the difference between randomly waving the hand and actually walking, which may cause false count.</p>
+<h2 id="recommendation-to-future-teams">
+  Recommendation to future teams
+  <a href="#recommendation-to-future-teams" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+<p>Base on the disadvantage we listed above, it&rsquo;s obvious that only the acceleration and gravity data is not enough to define a step precisely. We will need more data to do that, such as the idea we couldn&rsquo;t realize due the limit of time, the positsion location. Also, there are still a lot of room for the algorithm to imporve. A machanic is required to find out what is the state now for the user. For example, if user sitting in a car, when the car moves, the acceleration and position data of the IMU will both change and that is definitely not a step. What&rsquo;s more, a data filter is also required to filter out those unormal shaking like shaking the equipment very fast on purpose, the step counting should not be increased. A filter is required to prevent that happen.</p>
+<h2 id="other-design-approachescomponents-we-might-try-next-time">
+  Other design approaches/components we might try next time
+  <a href="#other-design-approachescomponents-we-might-try-next-time" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+<p>If there is a chance in the future, we might try to refer to the latest algorithm and see how do they figure out all the problem we have above and we might try to used the wifi module to get the time and weather data to display on the LCD screen, so that it looks more like a sports bracelet.</p>
+
+    </div>
+    
+      
+        <div class="pagination">
+          <div class="pagination__title">
+            <span class="pagination__title-h"
+              >Read other parts</span
+            >
+            <hr />
+          </div>
+          <div class="pagination__buttons">
+            
+              <span class="button previous">
+                <a href="http://walkman-ese5190.github.io/posts/6.-troubleshooting/">
+                  <span class="button__icon">←</span>
+                  <span class="button__text">6. Troubleshooting</span>
+                </a>
+              </span>
+            
+            
+              <span class="button next">
+                <a href="http://walkman-ese5190.github.io/posts/8.-feature-or-accomplishment-we-found-particularly-satisfying/">
+                  <span class="button__text">8. Feature or Accomplishment we found particularly satisfying</span>
+                  <span class="button__icon">→</span>
+                </a>
+              </span>
+            
+          </div>
+        </div>
+      
+    
+
+    
+      
+        
+
+      
+    
+  </article>
+
+      </div>
+
+      
+        <footer class="footer">
+  <div class="footer__inner">
+    
+      <a
+  href="/"
+  class="logo"
+  style="text-decoration: none;"
+>
+  
+    <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
+  <path fill="none" d="M15 8l14.729 14.382L15 35.367" />
+</svg>
+</span>
+    <span class="logo__text"
+      >Homepage</span
+    >
+    <span class="logo__cursor"></span>
+  
+</a>
+
+      <div class="copyright">
+        <span
+          >© 2022 Powered by
+          <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a></span
+        >
+        <span
+          >Theme created by
+          <a href="https://twitter.com/panr" target="_blank" rel="noopener">panr</a></span
+        >
+      </div>
+    
+  </div>
+</footer>
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+      
+    </div>
+
+    
+  </body>
+</html>

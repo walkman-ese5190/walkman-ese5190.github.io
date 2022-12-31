@@ -2,30 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://ese-5190-walkman.github.io/about/</loc>
-    <lastmod>2019-01-25T00:00:00+00:00</lastmod>
+    <loc>http://walkman-ese5190.github.io/posts/1.-overview/</loc>
   </url><url>
-    <loc>http://ese-5190-walkman.github.io/showcase/</loc>
-    <lastmod>2019-01-18T00:00:00+00:00</lastmod>
+    <loc>http://walkman-ese5190.github.io/posts/2.-component/</loc>
   </url><url>
-    <loc>http://ese-5190-walkman.github.io/posts/1.-overview/</loc>
+    <loc>http://walkman-ese5190.github.io/posts/3.-block-diagram/</loc>
   </url><url>
-    <loc>http://ese-5190-walkman.github.io/posts/2.-component/</loc>
+    <loc>http://walkman-ese5190.github.io/posts/4.-descritption-of-rp2040-development-enviroment/</loc>
   </url><url>
-    <loc>http://ese-5190-walkman.github.io/posts/3.-block-diagram/</loc>
+    <loc>http://walkman-ese5190.github.io/posts/5.-code/</loc>
   </url><url>
-    <loc>http://ese-5190-walkman.github.io/posts/4.-descritption-of-rp2040-development-enviroment/</loc>
+    <loc>http://walkman-ese5190.github.io/posts/6.-troubleshooting/</loc>
   </url><url>
-    <loc>http://ese-5190-walkman.github.io/posts/5.-code/</loc>
+    <loc>http://walkman-ese5190.github.io/posts/7.-reflections/</loc>
   </url><url>
-    <loc>http://ese-5190-walkman.github.io/archive/</loc>
+    <loc>http://walkman-ese5190.github.io/posts/8.-feature-or-accomplishment-we-found-particularly-satisfying/</loc>
   </url><url>
-    <loc>http://ese-5190-walkman.github.io/categories/</loc>
+    <loc>http://walkman-ese5190.github.io/posts/9.-explanation-of-the-pio-part-of-the-code/</loc>
   </url><url>
-    <loc>http://ese-5190-walkman.github.io/posts/</loc>
+    <loc>http://walkman-ese5190.github.io/about/</loc>
   </url><url>
-    <loc>http://ese-5190-walkman.github.io/</loc>
+    <loc>http://walkman-ese5190.github.io/archive/</loc>
   </url><url>
-    <loc>http://ese-5190-walkman.github.io/tags/</loc>
+    <loc>http://walkman-ese5190.github.io/categories/</loc>
+  </url><url>
+    <loc>http://walkman-ese5190.github.io/posts/</loc>
+  </url><url>
+    <loc>http://walkman-ese5190.github.io/showcase/</loc>
+  </url><url>
+    <loc>http://walkman-ese5190.github.io/</loc>
+  </url><url>
+    <loc>http://walkman-ese5190.github.io/tags/</loc>
   </url>
 </urlset>

@@ -5,20 +5,20 @@
     
     
     
-    <link>http://ese-5190-walkman.github.io/posts/</link>
+    <link>http://walkman-ese5190.github.io/posts/</link>
     <description>Recent content in Posts on Step Counter</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://ese-5190-walkman.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://walkman-ese5190.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>1. Overview</title>
-      <link>http://ese-5190-walkman.github.io/posts/1.-overview/</link>
+      <link>http://walkman-ese5190.github.io/posts/1.-overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://ese-5190-walkman.github.io/posts/1.-overview/</guid>
+      <guid>http://walkman-ese5190.github.io/posts/1.-overview/</guid>
       <description>
         
           
@@ -35,13 +35,13 @@
     
     <item>
       <title>2. Component</title>
-      <link>http://ese-5190-walkman.github.io/posts/2.-component/</link>
+      <link>http://walkman-ese5190.github.io/posts/2.-component/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://ese-5190-walkman.github.io/posts/2.-component/</guid>
+      <guid>http://walkman-ese5190.github.io/posts/2.-component/</guid>
       <description>
         
-          &lt;img src=&#34;http://ese-5190-walkman.github.io/img/pico4ml.webp&#34;/&gt;
+          &lt;img src=&#34;http://walkman-ese5190.github.io/img/pico4ml.webp&#34;/&gt;
           
         
         
@@ -54,13 +54,13 @@
     
     <item>
       <title>3. Block Diagram</title>
-      <link>http://ese-5190-walkman.github.io/posts/3.-block-diagram/</link>
+      <link>http://walkman-ese5190.github.io/posts/3.-block-diagram/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://ese-5190-walkman.github.io/posts/3.-block-diagram/</guid>
+      <guid>http://walkman-ese5190.github.io/posts/3.-block-diagram/</guid>
       <description>
         
-          &lt;img src=&#34;http://ese-5190-walkman.github.io/img/block_diagram.png&#34;/&gt;
+          &lt;img src=&#34;http://walkman-ese5190.github.io/img/block_diagram.png&#34;/&gt;
           
         
         
@@ -73,10 +73,10 @@
     
     <item>
       <title>4. Descritption of RP2040 development enviroment</title>
-      <link>http://ese-5190-walkman.github.io/posts/4.-descritption-of-rp2040-development-enviroment/</link>
+      <link>http://walkman-ese5190.github.io/posts/4.-descritption-of-rp2040-development-enviroment/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://ese-5190-walkman.github.io/posts/4.-descritption-of-rp2040-development-enviroment/</guid>
+      <guid>http://walkman-ese5190.github.io/posts/4.-descritption-of-rp2040-development-enviroment/</guid>
       <description>
         
           
@@ -93,10 +93,10 @@
     
     <item>
       <title>5. Code</title>
-      <link>http://ese-5190-walkman.github.io/posts/5.-code/</link>
+      <link>http://walkman-ese5190.github.io/posts/5.-code/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://ese-5190-walkman.github.io/posts/5.-code/</guid>
+      <guid>http://walkman-ese5190.github.io/posts/5.-code/</guid>
       <description>
         
           
@@ -106,6 +106,86 @@
         
         
           By using the sdk for ICM20948 and LCD_st7735, we are now able to successfully read the acceleration and gravity data from IMU(ICM20948) and get it to display on the LCD screen (LCD_st7735) which is used by PIO. The code is in this [repo](https://github.com/ese5190-walkman/ese-5190_final_project/tree/main/code/in-progress).
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>6. Troubleshooting</title>
+      <link>http://walkman-ese5190.github.io/posts/6.-troubleshooting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://walkman-ese5190.github.io/posts/6.-troubleshooting/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Troubleshooting is important to a project.
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>7. Reflections</title>
+      <link>http://walkman-ese5190.github.io/posts/7.-reflections/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://walkman-ese5190.github.io/posts/7.-reflections/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Advantages/Disadvantages; Recommendation to future teams; Other design approaches/components we might try next time...
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>8. Feature or Accomplishment we found particularly satisfying</title>
+      <link>http://walkman-ese5190.github.io/posts/8.-feature-or-accomplishment-we-found-particularly-satisfying/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://walkman-ese5190.github.io/posts/8.-feature-or-accomplishment-we-found-particularly-satisfying/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Successfully detect the moving state of the IMU module and turn that into walking state. When treat it like a bracelet, the step counting actually works!
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>9. Explanation of the PIO part of the code</title>
+      <link>http://walkman-ese5190.github.io/posts/9.-explanation-of-the-pio-part-of-the-code/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://walkman-ese5190.github.io/posts/9.-explanation-of-the-pio-part-of-the-code/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          The diagram of the overall logic; Introduction to the RP2040 PIO module; What makes RP2040 a unique asset for a microcontroller
           
         
         </description>
